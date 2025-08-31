@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Lateral - Igor Carvalho</title>
+    <!-- Link dos Icones-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <nav class="site_nav">
+      <button class="sidebar_toggle">
+        <span class="material-symbols-outlined"> menu </span>
+      </button>
+    </nav>
+
+    <!-- Cabeçalho do menu lateral: identifica a seção e facilita a navegação do usuário. -->
+    <div class="container">
+      <aside class="sidebar collapsed">
+        <header class="sidebar_header">
+          <img src="logo.png" alt="Igor Carvalho" class="header_logo" />
+          <button class="sidebar_toggle">
+            <span class="material-symbols-outlined">chevron_left</span>
+          </button>
+        </header>
+
+        <div class="sidebar_content">
+          <!-- Campo de busca: permite ao usuário encontrar conteúdos com mais facilidade, melhorando a usabilidade. -->
+          <form action="#" class="search_form">
+            <img
+              src="./Imagens/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+            />
+            <input type="search" placeholder="Procurar..." required />
+          </form>
+
+          <!-- Lista de itens do menu: organiza as opções de navegação de forma prática para o usuário. -->
+          <ul class="menu_list">
+            <li class="menu_item">
+              <a href="#" class="menu_link active">
+                <span
+                  ><span class="material-symbols-outlined">
+                    space_dashboard
+                  </span></span
+                >
+                <span class="menu_label">Painel de Controle</span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#" class="menu_link">
+                <span
+                  ><span class="material-symbols-outlined">
+                    analytics
+                  </span></span
+                >
+                <span class="menu_label">Análise</span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#" class="menu_link">
+                <span
+                  ><span class="material-symbols-outlined">
+                    circle_notifications
+                  </span></span
+                >
+                <span class="menu_label">Notificações</span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#" class="menu_link">
+                <span
+                  ><span class="material-symbols-outlined"> pages </span></span
+                >
+                <span class="menu_label">Favoritos</span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#" class="menu_link">
+                <span
+                  ><span class="material-symbols-outlined">
+                    shopping_bag
+                  </span></span
+                >
+                <span class="menu_label">Produtos</span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#" class="menu_link">
+                <span
+                  ><span class="material-symbols-outlined"> person </span></span
+                >
+                <span class="menu_label">Clientes</span>
+              </a>
+            </li>
+            <li class="menu_item">
+              <a href="#" class="menu_link">
+                <span
+                  ><span class="material-symbols-outlined">
+                    settings_applications
+                  </span></span
+                >
+                <span class="menu_label">Configurações</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Rodapé da barra lateral: seção destinada a informações complementares ou ações secundárias. -->
+        <div class="sidebar_footer">
+          <button class="theme_toggle">
+            <div class="theme_label">
+              <span
+                ><span class="theme_icon material-symbols-outlined">
+                  dark_mode
+                </span>
+              </span>
+              <span class="theme_text">Modo Noturno</span>
+            </div>
+            <div class="theme_toggle_track">
+              <div class="theme_toggle_indicator"></div>
+            </div>
+          </button>
+        </div>
+      </aside>
+
+      <div class="main_content">
+        <h1 class="page_title">Dashboard Overview</h1>
+        <p class="card">
+          Welcome to your dashhboard! Use thhe menu to navigate, toggle the
+          sidebar, or switch between ligh and dark thhemes to personalize your
+          experience
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
