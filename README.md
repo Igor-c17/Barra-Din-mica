@@ -45,3 +45,5 @@ O usuário também pode trocar o tema manualmente com apenas **um clique**.
 - ✅ Fácil integração em qualquer projeto web  
 
 ---
+
+Segue o link para acesso ao projeto: https://barra-din-mica.vercel.app/
